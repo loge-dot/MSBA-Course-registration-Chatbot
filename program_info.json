@@ -1,0 +1,57 @@
+{
+    "program_overview": {
+      "academic_structure": {
+        "description": "The program adopts a module-based system instead of a semester-based system.",
+        "details": [
+          "There are 6 modules in one year.",
+          "Modules 1-2 cover two compulsory courses each.",
+          "Modules 3-5 include 5 elective courses in total, typically distributed as 2+2+1."
+        ]
+      },
+      "capstone": {
+        "description": "Capstone is a practical project where HKU collaborates with various companies.",
+        "details": [
+          "The capstone project provides hands-on opportunities for HKU BA students.",
+          "It is one of the unique features of the HKU BA program."
+        ]
+      },
+      "graduation_flexibility": {
+        "description": "Students can choose to graduate in 1 or 2 years.",
+        "details": [
+          "This flexibility allows students to participate in two campus recruitment seasons, which is a great advantage for fresh graduates."
+        ]
+      }
+    },
+    "grading_policy": {
+      "gpa_scale": {
+        "description": "The maximum GPA at HKU is 4.3, corresponding to an A+ grade.",
+        "details": [
+          "Each grade decreases the GPA by 0.3: A+ = 4.3, A = 4.0, A- = 3.7, and so on.",
+          "The graduation requirement for HKU BA students is an average GPA of at least 2.0, with no more than 2 failed courses."
+        ]
+      },
+      "course_failure": {
+        "description": "Policies for handling failed courses.",
+        "details": [
+          "Compulsory courses: Failed compulsory courses must be retaken in the following year.",
+          "Elective courses: Failed elective courses can be replaced by selecting a different elective course.",
+          "Retaken courses require an additional tuition fee."
+        ]
+      }
+    },
+    "bootcamp": {
+      "description": "A 10-day Bootcamp is held before the start of the program.",
+      "details": [
+        "Covers foundational knowledge in mathematics, statistics, Python, R, and SQL.",
+        "Designed to help students transition from undergraduate to master's-level courses.",
+        "BA students are given priority for Bootcamp enrollment."
+      ]
+    },
+    "class_size": {
+      "description": "The program admits a large class size of 400 students.",
+      "details": [
+          "With such a large cohort, it can be challenging to recognize all classmates even after graduation."
+      ]
+    }
+  }
+  

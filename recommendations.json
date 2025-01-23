@@ -1,0 +1,55 @@
+{
+    "recommendations": {
+      "high_gpa": {
+        "description": "To work in Hong Kong after graduation, maintaining a good GPA is essential. The following courses have generous grading (Only as reference):",
+        "modules": {
+          "module3": ["MSBA 7024", "MSBA 7027"],
+          "module4": ["MSBA 7028", "MSBA 7026"],
+          "module5": ["MSBA 7025"]
+        }
+      },
+      "career_path": {
+        "algorithm_engineer_machine_learning_engineer": {
+          "description": "For Algorithm Engineers or Machine Learning Engineers:",
+          "modules": {
+            "module3": ["MSBA 7027", "MSBA 7035","MSBA 7021"],
+            "module4": ["MSBA 7028"],
+            "module5": ["MSBA 7026", "MSBA 7037"]
+          }
+        }, 
+        "data_scientist_internet": {
+          "description": "For Data Scientists in the Internet Industry:",
+          "modules": {
+            "module3": ["MSBA 7027", "MSBA 7013", "MSBA 7024"],
+            "module4": ["MSBA 7025", "MSBA 7028"],
+            "module5": ["MSBA 7013", "MSBA 7029", "MSBA 7037"]
+          }
+        },
+        "data_scientist_supply_chain": {
+          "description": "For Data Scientists in the Supply Chain Industry:",
+          "modules": {
+            "module3": ["MSBA 7027", "MSBA 7021", "MSBA 7013"],
+            "module4": ["MSBA 7025", "MSBA 7016"],
+            "module5": ["MSBA 7029", "MSBA 7037"]
+          }
+        },
+        "data_analyst_business_analyst": {
+          "description": "For Data Analysts or business analyst:",
+          "modules": {
+            "module3": ["MSBA 7027", "MSBA 7024","MSBA 7013"],
+            "module4": ["MSBA 7025", "MSBA 7012"],
+            "module5": ["MSBA 7013", "MSBA 7029", "MSBA 7037"]
+          }
+        }
+      },
+      "internship": {
+        "description": "Here are strategies to optimize for internships:",
+        "strategies": [
+          "Take the minimum 3 courses per module to leave one module free for internships.",
+          "Choose weekend courses to allow 4 days of internships per week.",
+          "Consider MSBA 7037: A/B testing for Shenzhen-based internships.",
+          "Have classmates check attendance if needed, but avoid excessive absences."
+        ]
+      }
+    }
+  }

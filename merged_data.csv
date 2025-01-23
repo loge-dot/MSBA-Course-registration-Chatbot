@@ -1,0 +1,757 @@
+ExtractedInformation,CourseCode,CourseName,Module,CourseCode_and_Title,CourseType,Instructor,TutorialGroup,Turorialtime,Final,CombinedClassInformation
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Dr. DING Chao (丁超)
+- **Email:** chao.ding@hku.hk
+- **Office:** KK807
+- **Course Description:** This course focuses on the generation and analysis of massive amounts of data from online transactions, mobile applications, IoT devices, and social media. It covers data capture, transformation, analysis through data mining, visualization, and ethical issues related to data scraping and mining. The course emphasizes hands-on technical skill development using Python for data scraping, mining, and analytics, and lays the foundation for more advanced analytics courses.
+- **Assessments:**
+  - A1. Assignments: 70% (Multiple take-home assignments)
+  - A2. Final exam: 30% (One computer-based final examination)",MSBA7001,Business Intelligence and Analytics,1,"MSBA7001
+Business Intelligence and
+Analytics",Core,Prof. Chao Ding,5,"Sep 5 14:00 - 16:00 Class D
+Sep 12 18:00 - 20:00 LTB
+Sep 20 14:00 - 16:00 Class D
+Sep 26 18:00 - 20:00 LTB
+Oct 3 14:00 - 16:00 LTA","Final exam Date: Oct 10, 2024 (Thurs)
+Time: 19:00 - 21:00
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom H, A205-1&2","A: Monday & Thursday
+9:30-12:30
+Sep 2, 5, 9, 12, 16, 19, 23, 26, 30, 2024
+Oct 3, 2024
+Venue: CP: LT104
+B: Monday & Thursday
+14:00-17:00
+Sep 2, 5, 9, 12, 16, 19, 23, 26, 30, 2024
+Oct 3, 2024
+Venue: CP: LT104
+C: Wednesday & Saturday
+9:30-12:30
+Aug 31, 2024
+Sep 4, 7, 11, 14, 21, 25, 28, 2024
+Oct 2, 5, 2024
+Venue: CP: LT104
+D: Wednesday & Saturday
+14:00-17:00
+Aug 31, 2024
+Sep 4, 7, 11, 14, 21, 25, 28, 2024
+Oct 2, 5, 2024
+Venue: CP: LT104"
+"**Instructor:**
+- Dr. Weichen Wang
+  - Email: weichenw@hku.hk
+  - Office: KK 1319
+- Dr. Zhanrui Cai
+  - Email: zhanruic@hku.hk
+  - Office: KK 1336
+- Tutor: Yutao Deng
+  - Email: ytdeng@connect.hku.hk
+
+**Course Description:**
+The modern business world is increasingly experiencing a data tsunami, i.e., being flooded with large amounts of big data with complex structure and high dimensionality. Decision makers have begun to recognize the importance of “turning data into value�?and the need for effective business analytics. This course systematically introduces various statistical tools and the ability to apply them in business situations. Hands-on experience will be gained through real data analysis. Discussions and practices will be offered about how to ask the right question, prepare the right data, and perform the right analysis to assist decision making, as well as ethical issues of data analytics.
+
+**Assessments:**
+- A1. Participation: 20% (Attendance and discussions)
+- A2. Assignments: 40% (Effort and accuracy)
+- A3. Final exam: 40% (Effort and accuracy)
+
+**Total Weight:** 100%",MSBA7002,Business Statistics,2,"MSBA7002
+Business Statistics",Core,"Prof. Zhanrui Cai
+(First 5 lectures)
+&
+Prof. Weichen Wang
+(Last 5 lectures)",4,"Oct 25 18:00 - 20:00 LTA
+Nov 1 18:00 - 20:00 LTA
+Nov 12 18:00 - 20:00 LTA
+Nov 20 14:00 - 16:00 LT104","Final exam Date: Nov 25, 2024 (Mon)
+Time: 18:30 - 21:00
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom H, A205-1&2","A: Monday & Thursday
+9:30-12:30
+Oct 17, 21, 24, 28, 31, 2024
+Nov 4, 7, 11, 14, 18, 2024
+Venue: CP: LT104
+B: Monday & Thursday
+14:00-17:00
+Oct 17, 21, 24, 28, 31, 2024
+Nov 4, 7, 11, 14, 18, 2024
+Venue: CP: LT104
+C: Wednesday & Saturday
+14:00-17:00
+Oct 16, 19, 23, 26, 30, 2024
+Nov 2, 6, 9, 13, 16, 2024
+Venue: CP: Classroom H
+D: Wednesday & Saturday
+18:30-21:30
+Oct 16, 19, 23, 26, 30, 2024
+Nov 2, 6, 9, 13, 16, 2024
+Venue: CP: Classroom H"
+"Here is the extracted information from the course outline:
+
+- **Instructor**: Prof. Wei ZHANG / Prof. Xing Hu
+- **Email**: wzhang15@hku.hk
+- **Office**: KK 814
+- **Course Description**: Business decision making involves considerable complexity and uncertainty. To assist decision making, managers need to tease out useful information from data. In particular, managers should be able to use data to evaluate the impact of their decisions and to make predictions for their decisions. To make decisions in a scientific way, managers need to be able to build mathematical models for their decisions and solve their problems with the help of computer software. This course introduces a wide array of quantitative analysis methods to help students gain a clear understanding of the decision-making process in business and management. These methods provide students with the tools and skills to approach, analyze, and solve problems of varying scales. Furthermore, this course aims at improving a decision-maker’s overall problem-solving ability by stressing approaches to 1) understand and question assumptions, 2) consider a richer set of solution alternatives, and 3) consider diverse measures of performance. The teaching methods will include lectures, discussions, and demonstration of several software packages.
+- **Assessments**:
+  - A1. In-class & forum participation: 20%
+  - A2. Assignments: 40%
+  - A3. Final exam: 40% 
+
+Total assessment weight: 100%",MSBA7003,Decision Analytics,1,"MSBA7003
+Decision Analytics",Core,Prof. Wei Zhang,4,"Sep 7 10:00 - 11:30 LTB
+Sep 14 14:00 - 15:30 Class AB
+Sep 27 14:00 - 15:30 Class D
+Oct 8 18:00 - 19:30 LT104","Final exam Date: Oct 14, 2024 (Mon)
+Time: 14:30 - 16:30
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom H, A205-1&2","A: Tuesday & Friday
+9:30-12:30
+Sep 3, 6, 8(Sun), 10, 13, 20, 24, 27, 2024
+Oct 4, 8, 2024
+Venue: CP: LTA
+B: Tuesday & Friday
+14:00-17:00
+Sep 3, 6, 8(Sun), 10, 13, 20, 24, 27, 2024
+Oct 4, 8, 2024
+Venue: CP: LT104
+C: Tuesday & Friday
+9:30-12:30
+Sep 3, 6, 8(Sun), 10, 13, 20, 24, 27, 2024
+Oct 4, 8, 2024
+Venue: CP: LT104
+D: Tuesday & Friday
+14:00-17:00
+Sep 3, 6, 8(Sun), 10, 13, 20, 24, 27, 2024
+Oct 4, 8, 2024
+Venue: CP: LTA"
+"**Instructor:**  
+- Dr. Feng Tian  
+- Dr. Huiyin Ouyang  
+
+**Email:**  
+- fengtian@hku.hk  
+- oyhy@hku.hk  
+
+**Office:**  
+- KK 1312  
+- KK 1321  
+
+**Course Description:**  
+This course introduces the concepts of operations management and the application of analytic techniques in solving problems an organization faces in its operations. An organization's ultimate success depends on how efficiently and effectively it executes its strategic goals. This requires its operational goals to be aligned with its strategic goals. A detailed understanding of the processes used to produce and deliver goods and/or provide services to customers is essential. Operations Management is a field which focuses on these aspects of an organization. Operations of an organization concerns the management of the processes which convert inputs into outputs. Effective operations management involves managing people, equipment, and other resources. In the typical business organization, the majority of the costs and controllable assets are managed by the operations function. Thus, this discipline–with the techniques, procedures, and knowledge it encompasses–is a vital segment of business activity. This course will provide students with the analytical tools needed to understand and articulate the impact of an organization's processes and the ability to continuously improve these processes.
+
+**Assessments:**  
+- A1. Individual assignments: 30%  
+- A2. Group assignment: 10%  
+- A3. Participation: 10%  
+- A4. Final exam: 50%  
+- Total: 100%  ",MSBA7004,Operations Analytics,2,"MSBA7004
+Operations Analytics",Core,"Prof. Feng Tian
+(First 5 lectures)
+&
+Prof. Huiyin Ouyang
+(Last 5 lectures)",4,"Oct 26 09:30 - 12:30 LT104
+Nov 2 09:30 - 12:30 LT104
+Nov 13 09:30 - 12:30 LT104
+Nov 20 09:30 - 12:30 LT104","Final exam Date: Nov 26, 2024 (Tues)
+Time: 18:30 - 20:30
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom H, A205-1&2","A: Tuesday & Friday
+18:30-21:30
+Oct 18, 22, 25, 29, 2024
+Nov 1, 5, 8, 12, 15, 19, 2024
+Venue: CP: LT104
+B: Tuesday & Friday
+14:00-17:00
+Oct 18, 22, 25, 29, 2024
+Nov 1, 5, 8, 12, 15, 19, 2024
+Venue: CP: LT104
+C: Wednesday & Saturday
+18:30-21:30
+Oct 16, 19, 23, 26, 30, 2024
+Nov 2, 6, 9, 13, 16, 2024
+Venue: CP: LT104
+(Nov 6 -
+CP: Classroom FG)
+D: Wednesday & Saturday
+14:00-17:00
+Oct 16, 19, 23, 26, 30, 2024
+Nov 2, 6, 9, 13, 16, 2024
+Venue: CP: LT104
+(Nov 6 -
+CP: Classroom FG)"
+,MSBA7005,,5,"MSBA7005
+Business Analytics Capstone",Core,Prof. Haipeng Shen,,,Presentation,"A, B, C, D: Student Briefing Session
+Clients' Presentations
+Final Project Presentations
+Final Report Submissions Dedline
+Further details to be announced
+Venue: Further details to be announced"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Hailiang Chen  
+- **Email:** chen19@hku.hk  
+- **Office:** KKL 8 40  
+- **Course Description:** Social media has become an important data source for understanding the behaviors of business stakeholders, such as customers, suppliers, partners, investors, and employees. Analyzing social media data can reveal useful insights for strategic planning and help achieve various business objectives. This course is designed to help students develop strategies to create and extract value from applying social media analytics. Techniques covered will include web scraping, data management, machine learning, social network analytics, text analytics, natural language processing, sentiment analysis, and knowledge mining. Students will also learn how to carry out a business analytics project from beginning to end.  
+- **Assessments:**  
+  - A1. In-class and Online Participation - 20%  
+  - A2. Group Project - 50%  
+  - A3. Individual Assignments - 30%  
+  - Total - 100%  ",MSBA7012,Social-Media-and-Digital-Marketing-Analytics,4,"MSBA7012
+Social Media and Digital
+Marketing Analytics
+(equivalent to MACC7022)
+*not open to students who have
+taken or are taking
+MACC7022)","Elective
+(MC-DE)",Prof. Hailiang Chen,,,"Presentation: Mar 7, 2025 (Fri)
+Time: 9:30-12:30
+Venue: CP-Classroom H
+Final exam Date: Oct 10, 2024 (Thurs)","A: Tuesday & Friday
+9:30-12:30
+Jan 21, 24, 2025
+Feb 4, 7, 11, 14, 18, 21, 25, 28, 2025
+Venue: CP: Classroom H"
+"Here is the extracted information from the course outline:
+
+- **Instructor**: Prof. Dan Yang / Prof. Xinghao Qiao
+- **Email**: dyanghku@hku.hk / xinghaoq@hku.hk
+- **Office**: KK Leung 816 / 1340
+- **Course Description**: Students taking this course will be familiar with and have hands-on experience with popular forecasting techniques and approaches used in business, as well as best practices for building forecasting methods and evaluating their performance.
+- **Assessments**:
+  - A1. Participation: 10% (Attendance & discussions)
+  - A2. Assignments: 40% (Effort and accuracy)
+  - A3. Final project: 50% (Effort and accuracy) 
+
+Total assessment weight: 100%",MSBA7013,Forecasting and Predictive Analytics,3,"MSBA7013
+Forecasting and Predictive
+Analytics","Elective
+(AI-M)",Prof. Xinghao Qiao,,"Dec 5 14:00 - 16:00 Classroom D
+Dec 12 17:00 - 18:00 Classroom D
+Dec 19 17:00 - 18:00 Classroom D
+Jan 6 14:00 - 15:00 Classroom D
+Jan 9 14:00 - 15:00 Classroom D","Presentation: Jan 18, 2025 (Sat)
+Time: 14:00 - 17:00
+Venue: CP-LTA
+Final exam Date: Oct 10, 2024 (Thurs)","A: Monday & Thursday
+9:30-12:30
+Nov 28, 2024
+Sep 2, 5, 9, 12, 16, 19, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: Classroom ABC
+(Dec 19 - CP: Classroom J)"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Xinghao Qiao  
+- **Email:** xinghaoq@hku.hk  
+- **Office:** KK Leung 1340  
+- **Course Description:** Students taking this course will be familiar with and have hands-on experience with popular forecasting techniques and approaches used in business, as well as best practices for building forecasting methods and evaluating their performance.  
+- **Assessments:**  
+  - A1. Participation: 20% (Attendance & discussions)  
+  - A2. Assignments: 40% (Effort and accuracy)  
+  - A3. Final project: 40% (Effort and accuracy)  
+  - Total: 100%  ",MSBA7013,Forecasting and Predictive Analytics,3,"MSBA7013
+Forecasting and Predictive
+Analytics","Elective
+(AI-M)",Prof. Xinghao Qiao,,"Dec 5 14:00 - 16:00 Classroom D
+Dec 12 17:00 - 18:00 Classroom D
+Dec 19 17:00 - 18:00 Classroom D
+Jan 6 14:00 - 15:00 Classroom D
+Jan 9 14:00 - 15:00 Classroom D","Presentation: Jan 18, 2025 (Sat)
+Time: 14:00 - 17:00
+Venue: CP-LTA
+Final exam Date: Oct 10, 2024 (Thurs)","A: Monday & Thursday
+9:30-12:30
+Nov 28, 2024
+Sep 2, 5, 9, 12, 16, 19, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: Classroom ABC
+(Dec 19 - CP: Classroom J)"
+"**Instructor:** Dr. Sundara Natarajan Panchanatham  
+**Email:** sundar@hku.hk  
+**Office:** Room 132 5, K.K. Leung Building  
+
+**Course Description:**  
+This course introduces simulation modeling to analyze business processes and solve practical problems. Students will gain basic knowledge of Monte Carlo simulation and discrete event simulation and learn to build simulation models of business processes, interpret simulation results, and, more importantly, facilitate the decision-making process. This is a hands-on course on computer simulation with @Risk (www.palisade.com) and Arena. Note: We will use @Risk and Arena software. Both are Windows applications. You are required to have a Windows operating system installed on your laptop. If you use a Mac, kindly make sure you have access to a virtual machine with Windows or another device with the latest Windows OS.
+
+**Assessments:**  
+- **A1. Written assignments:** Four assignments will be assigned throughout the semester (40% - CLO1, 2, 3, 5)  
+- **A2. In-class participation:** Attendance and discussions (20% - CLO1, 2, 3, 5)  
+- **A3. Group projects:** One final course project (40% - CLO2, 3, 4, 5)  
+- **Total:** 100%  ",MSBA7014,Business Simulation,5,"MSBA7014
+Business Simulation
+(equivalent to MSMK7028)
+*not open to students who have
+taken or are taking MSMK7028","Elective
+(MC-AM)",Prof. Sundara Natarajan Panchanatham,,,"Presentation: Apr 20, 2025(Sun)
+Time: 09:30-12:30
+Venue: CP-LT104","A: Sunday
+9:30-17:00
+Mar 16, 23, 30, 2025
+Apr 6, 13, 2025
+Venue: CP: LT104
+(Mar 23 - KKL: G109)"
+"**Instructor:** Prof. Benjamin Yen  
+**Email:** benyen@hku.hk  
+**Office:** KKL 1323  
+
+**Course Description:**  
+The course is designed to prepare students to apply business strategies, analytical methodologies, and information technology in supply chain management. It focuses on the systems approach to the planning, analysis, design, development, and evaluation of supply chain and logistics management. The course includes practical situations and case studies from various industries to stimulate critical thinking for solutions in analyzing supply chain operations.
+
+**Assessments:**  
+1. **Class participation and class discussion** - 30%  
+   - Participation in class discussions to clarify understanding of concepts and case studies.
+   
+2. **Written assignments** - 30%  
+   - Homework to explain basic concepts and apply principles of supply chain management, providing hands-on experience with technologies covered in class.
+   
+3. **Group project & presentation** - 40%  
+   - Project to analyze and synthesize current issues in the field of study.  
+
+**Total Weight:** 100%",MSBA7016,Supply Chain and Logistics Management,4,"MSBA7016
+Supply Chain and Logistics
+Management","Elective
+(MC-DE)",Prof. Benjamin Yen,,,"Presentation: Mar 5, 2025 (Weds)
+Time: 14:00-17:00
+Venue: CP-LT104","A: Wednesday &
+Saturday
+14:00-17:00
+Jan 22, 25, 2025
+Feb 5, 8, 12, 15, 19, 22, 26, 2025
+Mar 1, 2025
+Venue: CP: LT104
+CP: Classroom ABC"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Liao Wang
+- **Email:** lwang98@hku.hk
+- **Office:** KKL 806
+- **Course Description:** The goal of this course is twofold. The primary objective is to equip students with analytical foundation and hands-on skills in solving investment and trading problems. Implementation of the analytics (e.g., building term structure models, portfolio construction, pricing options by simulation, etc.) by developing models in spreadsheet/VBA or Python will also be emphasized. The secondary objective is to introduce Financial Technology (“FinTech�? --- one of the most promising sectors in financial industry. We will have an overview on the active product areas in FinTech, including capital raising platforms and digital wealth management. Digital currency and the closely related technology (blockchain) will also be highlighted.
+- **Assessments:**
+  - **A1. Assignments:** 40% (Includes one coding problem, 2-3 computational problems, and 2-3 questions based on assigned reading)
+  - **A2. Final Exam:** 50%
+  - **A3. In-class participation:** 10%
+  - **Total:** 100%",MSBA7017,Financial Engineering,5,"MSBA7017
+Financial Engineering","Elective
+(MC-DE)",Prof. Liao Wang,,To be announced,"Final exam Date: Apr 16, 2025 (Weds)
+Time: 14:00 - 17:00
+Venue: CP-Classroom EFG","A: Monday & Thursday
+9:30-12:30
+Mar 10, 13, 17, 22, 24, 27, 31, 2025
+Apr 3, 7, 10, 2025
+Venue: CP: LT104
+(Mar 22:
+18:30-21:30)
+B: Monday & Thursday
+14:00-17:00
+Mar 10, 13, 17, 22, 24, 27, 31, 2025
+Apr 3, 7, 10, 2025
+Venue: CP: LT104
+(Mar 22 - CP: Classroom J
+14:00-17:00)"
+"**Instructor:** Dr. WANG, Xin (王鑫)  
+**Email:** wangxacy@hku.hk  
+**Office:** Room 1215, KK Leung Building, the University of Hong Kong  
+
+**Course Description:**  
+This course offers an in-depth analysis of the internal management accounting systems and their use in firms�?decision-making, planning, and control. Major topics include the different methods of product costing, differential analysis for decision-making, cost allocation among divisions, the design of planning and budgeting systems, and performance measurement issues. Some internal control issues for multi-segment corporations will be discussed. Topics of corporate ethics are incorporated into the discussions.
+
+**Assessments:**  
+1. Class attendance and discussion participation - 15%  
+2. Individual homework assignments - 15%  
+3. In-class exercises - 30%  
+4. Final Exam - 40%  
+Total: 100%  
+
+**Assessment Details:**
+- **Class Participation and Homework Assignments (15% + 15%)**: Active participation in lectures and tutorials is encouraged. Absenteeism will negatively affect performance. Homework assignments must be completed on time.
+- **In-class Exercises (30%)**: Conducted during the teaching period to reinforce key knowledge.
+- **Final Exam (40%)**: A closed-book comprehensive examination covering all course chapters.",MSBA7020,Accounting Analytics for Managerial Decisions,3,"MSBA7020
+Accounting Analytics for
+Managerial Decisions",Elective,Prof. Xin Wang,,,"Time: 19:00 - 21:00
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom H, A205-1&2
+Final exam Date: Jan 18, 2025 (Sat)
+Time: 10:00 - 12:00
+Venues at CP: Classroom H, Classroom D","A: Wednesday &
+Saturday
+9:30-12:30
+Nov 27, 30, 2024
+Dec 4, 7, 11, 14, 18, 2024
+Jan 4, 8, 11, 2025
+Venue: CP: LTB
+(Dec 14 - CP: Classroom J)"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Zhang, Wei  
+- **Email:** wzhang15@hku.hk  
+- **Office:** KK 814  
+- **Course Description:** This course equips students with the fundamental skills and knowledge required to excel in the rapidly evolving, data- and AI-driven business world. The analytical methods enable businesses to optimize their resources and operations, identify the most efficient pathways to achieve desired outcomes, and adapt to dynamic market conditions. In addition to the traditional optimization methods, Reinforcement Learning has become a cornerstone of AI development, allowing systems to learn and adapt based on their experiences, resulting in improved decision-making and automation in various industries. Causal Decision Making and Smart Predict then Optimize approaches are essential for making more informed, data-driven decisions that drive business growth and innovation. Students will have an opportunity to apply the techniques learned in a group project.  
+- **Assessments:**  
+  - A1. In-class and forum participation - 20%  
+  - A2. Assignments - 40%  
+  - A3. Group Project - 40%  
+  - Total: 100%  ",MSBA7021,Optimization and Reinforcement Learning,3,"MSBA7021
+Optimization and
+Reinforcement Learning","Elective
+(AI-M)",Prof. Wei Zhang,,"Dec 11 18:30 - 21:30 LT104
+Jan 11 18:30 - 21:30 LT104","Presentation: Jan 15, 2025 (Weds)
+Time: 9:30 - 12:30
+Venue: CP-LT104","A: Wednesday &
+Saturday
+14:00-17:00
+Nov 27, 30, 2024
+Dec 4, 7, 11, 14, 18, 2024
+Jan 4, 8, 11, 2025
+Venue: CP: LT104
+(Nov 30, Dec 7 &11 - MC: KB223
+Dec 14 - CP: Classroom EFG
+Jan 8 - CP: Classroom J
+Jan 11- CP: Classroom LTB)"
+"Here is the extracted information from the course outline:
+
+- **Instructor**: Professor Zhixi Wan
+- **Email**: zhixiwan@hku.hk
+- **Office**: KKL 803
+- **Course Description**: The course introduces students to the basic knowledge of geospatial data, systems, and methods, helping them develop a mindset and toolbox to tackle challenging business problems related to location. It aims to equip students with knowledge of Geographic Information Systems (GIS) and business analytical skills to analyze data with geospatial tags and features, including integration and manipulation of data layers, descriptive analysis, predictive analysis, and prescriptive analysis. Students will gain problem-solving experience with applications in various business contexts.
+- **Assessments**:
+  - Class Participation (20%) (Individual)
+  - Assignment (50%)
+    - Work on assigned problems and answer certain questions (40%) (Individual)
+    - In-class mini case competition (10%) (Group)
+  - Group project (30%) (Group)
+    - Project topics proposed by project members (with lecturer’s approval)
+    - Report project by a StoryMap.",MSBA7023,Geospatial and Business Analytics,4,"MSBA7023
+Geospatial and Business
+Analytics","Elective
+(MC-AM)",Prof. Zhixi Wan,,,,"A: Tuesday & Friday
+18:30-21:30
+Jan 21, 24, 2025
+Feb 4, 7, 11, 14, 18, 21, 25, 28, 2025
+Venue: CP: Classroom H"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Michael Chau
+- **Email:** mchau@business.hku.hk
+- **Office:** KK 1324
+- **Course Description:** The ability to store, retrieve, and manipulate data using modern database systems is essential to the success of business analytics projects. This course aims to introduce the fundamental principles of the design, development, and administration of various database models for students with no prior experience and knowledge in database management. Students will learn the basic concepts involved in the design and management of relational databases, dimensional databases, and NoSQL databases for business analytics.
+- **Assessments:**
+  - A1. In-class & forum participation: 20%
+  - A2. Assignments: 40%
+  - A3. Final exam: 40%",MSBA7024,Databas Design and Management,3,"MSBA7024
+Database Design and
+Management
+(equivalent to MACC7020)
+*not open to students who have
+taken or are taking MACC7020","Elective
+(MC-AM)",Prof. Michael Chau,,,"Final exam Date: Jan 19, 2025 (Sun)
+Time: 14:00 - 17:00
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom D","A: Tuesday & Friday
+9:30-12:30
+Nov 29, 2024
+Dec 3, 6, 10, 13, 20, 2024
+Jan 3, 7, 10, 14, 2025
+Venue: CP: LT104
+(Dec 20: HKU Admiralty campus ATC-B2)
+B: Tuesday & Friday
+14:00-17:00
+Nov 29, 2024
+Dec 3, 6, 10, 13, 20, 2024
+Jan 3, 7, 10, 14, 2025
+Venue: CP: Class D -
+Nov 29, 2024
+Dec 3, 10, 2024
+Jan 3, 7, 2025
+CP: LTB -
+Dec 6, 13, 2024
+Jan 10, 2025
+CP: LT104 -
+Jan 14, 2025
+(Dec 20: HKU Admiralty campus ATC-B2)
+C: Tuesday & Friday
+18:30-21:30
+Nov 29, 2024
+Dec 3, 6, 10, 13, 20, 2024
+Jan 3, 7, 10, 14, 2025
+Venue: CP: LT104"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Jing Ouyang
+- **Email:** jingoy@hku.hk
+- **Office:** KK Leung Building 1020
+- **Course Description:** The newly emerging capability to rapidly deploy and iterate online controlled experiments to assist decision makings in organizations is one of the most significant innovations in today’s technology industry. As more and more social interactions, decisions, opinions, and transactions are mediated by online platforms, digital experiments are becoming increasingly crucial for firms to understand their user behaviors and make product decisions. This course will cover the most cutting-edge digital experimentation methods used in daily operations at large technology firms, such as Tencent, Alibaba, Facebook, and LinkedIn. We will also share the key lessons and pitfalls encountered in practice. Topics include the statistics behind experiments, experimental design, methods of analyzing experiments in a trustworthy way, advanced topics including sequential testing and multi-armed bandit, and recent development in digital experimentation. Students will also learn how to conduct and analyze online experiments using programming languages, such as Python, in assignments and a course project.
+- **Assessments:**
+  - A1. Participation: 10%
+  - A2. Assignments: 40%
+  - A3. Final project: 50%",MSBA7025,Digital Experimentation Methods,4,"MSBA7025
+Digital Experimentation
+Methods","Elective
+(MC-AM)",Prof. Jing Ouyang,,"Jan 25 17:00 - 19:00 LT104
+Feb 12 17:00 - 19:00 LT104
+Feb 22 17:00 - 19:00 LT104
+Mar 1 17:00 - 19:00 LT104","Presentation: Mar 3, 2025 (Mon)
+Time: 09:30-12:30
+Venue: CP-LT104","A: Monday & Thursday
+9:30-12:30
+Jan 20, 23, 2025
+Feb 3, 6, 10, 13, 17, 20, 24, 27, 2025
+Venue: CP: LT104
+B: Wednesday &
+Saturday
+9:30-12:30
+Jan 22, 25, 2025
+Feb 5, 8, 12, 15, 19, 22, 26, 2025
+Mar 1, 2025
+Venue: CP: LT104"
+,MSBA7026,,5,"MSBA7026
+Big Data Analytics on the Cloud","Elective
+(AI-A)",Prof. Zhepeng Li,,"Mar 19 14:00 - 15:30 LT104
+Mar 29 14:00 - 15:30 LT104
+Apr 9 14:00 - 15:30 LT104
+Apr 16 14:00 - 15:30 LT104",Final project,"A: Tuesday & Friday
+14:00-17:00
+Mar 11, 14, 18, 22, 25, 28, 2025
+Apr 1, 8, 11, 15, 2025
+Venue: CP: LT104
+(Mar 22 - CP: Classroom EFG
+18:30-21:30)
+B: Tuesday & Friday
+18:30-21:30
+Mar 11, 14, 18, 21, 25, 28, 2025
+Apr 1, 8, 11, 15, 2025
+Venue: CP: LT104"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Zhengli Wang  
+- **Email:** wzl1@hku.hk  
+- **Office:** KK908  
+- **Course Description:** This course provides systematic training of machine learning, which is the foundation and core of data analytics. It covers various topics such as machine learning system design, nonlinear regressions, advanced tree-based methods, recommendation systems, and anomaly detection.  
+- **Assessments:**  
+  - A1. Participation: 20% (Attendance & discussions)  
+  - A2. Assignments: 40% (Effort and accuracy)  
+  - A3. Final project: 40% (Effort and accuracy)  
+  - Total: 100%  ",MSBA7027,Machine Learning,3,"MSBA7027
+Machine Learning","Elective
+(AI-M)
+(MC-AM)",Prof. Zhengli Wang,,"Dec 10 14:00 - 16:00 LTB
+Dec 11 18:30 - 20:30 LTA
+Jan 7 14:00 - 16:00 LTB
+Jan 8 18:30 - 20:30 Class D","Final exam Date: Jan 17, 2025 (Fri)
+Time: 18:30 - 21:00
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom D","A: Monday & Thursday
+9:30-12:30
+Nov 28, 2024
+Dec 2, 5, 9, 12, 16, 21, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: LT104
+(Dec 21 - CP: Classroom ABC 14:00-17:00 )
+B: Monday & Thursday
+14:00-17:00
+Nov 28, 2024
+Dec 2, 5, 9, 12, 16, 19, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: LT104
+(Dec 19 - CP: Classroom H)
+C: Wednesday &
+Saturday
+9:30-12:30
+Nov 27, 30, 2024
+Dec 4, 7, 11, 14, 18, 2024
+Jan 4, 8, 11, 2025
+Venue: CP: LT104
+(Dec 14 - CP: Classroom FG)"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Xiao Lei
+- **Email:** xlei@hku.hk
+- **Office:** KK Leung 817
+- **Course Description:** Deep learning being the core of artificial intelligence, has become more and more important. This course provides a broad introduction to deep learning, including fundamental concepts, state-of-the-art algorithms for data analysis, and their application to real cases.
+- **Assessments:**
+  - A1. Participation: 10%
+  - A2. Assignments: 40%
+  - A3. Final project: 50%",MSBA7028,Deep Learning,4,"MSBA7028
+Deep Learning","Elective
+(AI-M)",Prof. Xiao Lei,,To be announced,"Presentation: Mar 4, 2025 (Tues)
+Time: 14:00-18:00
+Venue: CP-LT104","A: Tuesday & Friday
+14:00-17:00
+Jan 21, 24, 2025
+Feb 4, 7, 11, 14, 18, 21, 25, 28, 2025
+Venue: CP: LT104"
+"**Instructor:** Xin Tong  
+**Email:** xint@hku.hk  
+**Office:** After class or by appointment  
+
+**Course Description:**  
+Storytelling with data is essential in business because it transforms complex data into understandable, impactful narratives that drive decision-making. Data alone can be overwhelming or meaningless to stakeholders who may not be experts in analytics. By using storytelling techniques, businesses can contextualize insights, connect with audiences on an emotional level, and convey the relevance of data in a way that motivates action. Well-crafted data stories help simplify trends, highlight key metrics, and reveal patterns, making information more accessible and actionable for teams, executives, and clients alike.
+
+**Assessments:**  
+- **Class Participation:** 15 points (15% of overall grade)  
+- **Group Project:** 35 points (35% of overall grade)  
+- **Class Quizzes:** 50 points (50% of overall grade)  
+- **Total:** 100 points (100% of overall grade)  
+
+**Details on Assessments:**  
+- **Class Participation:** Based on the quality of a student’s contribution to lectures and after-class discussions.  
+- **Class Quizzes:** 5-question quizzes in 10 classes, with the lowest quiz score dropped. Quizzes are closed book, and no make-up or special arrangements are allowed unless under irresistible circumstances.  
+- **Group Project:** Description to be released later; groups formed voluntarily with the same score for all members. Group presentation is scheduled for April 22, 2025.",MSBA7029,Storytelling with data,5,"MSBA7029
+Storytelling with Data","Elective
+(MC-AM)",Prof. Xin Tong,,,"Presentation: Apr 22, 2025 (Tues)
+Time: 09:30-12:30
+Venue: CP-LT104","A: Tuesday & Friday
+9:30-12:30
+Mar 11, 14, 18, 21, 25, 28, 2025
+Apr 1, 8, 11, 15, 2025
+Venue: CP: LT104
+(Mar 21 - CP: Classroom FG)"
+"Here is the extracted information from the course outline:
+
+- **Instructor**: Prof. Jack Jiang
+- **Email**: jiangz@hku.hk
+- **Office**: KKL 804
+- **Course Description**: The course focuses on how information technology (IT) enables new patterns of commerce and affects various aspects of business operations, including buyer-seller interactions, internal organization, and technology utilization. It emphasizes the integration of technology, individuals, and business processes, aiming to equip managers and leaders with the ability to understand and leverage digital innovation for competitive advantage. Topics include innovation strategies, platform economics, business model development, disruptive technologies, digital experiments, cryptocurrency, artificial intelligence, and information privacy.
+- **Assessments**: 
+  1. Class participation and presentations (30%)
+  2. Individual assignments and quizzes (40%)
+  3. Group project (30%, including group work 20% and individual contribution 10%)",MSBA7030,Digital Innovation,3,"MSBA7030
+Digital Innovation","Elective
+(MC-DE)","Prof. Zhenhui Jack
+Jiang",,,"Presentation: Jan 17, 2025 (Fri)
+Time: 09:30 - 12:30
+Venue: CP-LTA","A: Tuesday & Friday
+9:30-12:30
+Nov 29, 2024
+Dec 3, 6, 10, 13, 20, 2024
+Jan 3, 7, 10, 14, 2025
+Venue: CP: LTA
+(Dec 20 - CP: Classroom LTB 18:30-21:30)"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Weichen Wang
+- **Email:** weichenw@hku.hk
+- **Office:** KK 1319
+- **Course Description:** Quantitative trading is an interdisciplinary subject involving a combination of techniques in statistical analysis, feature engineering, time series forecasting, machine learning, and portfolio optimization. Through this course, students will get exposure to basic asset pricing for financial markets and how state-of-the-art quantitative techniques may be applied in real trading decisions.
+- **Assessments:**
+  - A1. Participation: 20% (Attendance & discussions)
+  - A2. Assignments: 40% (Effort and accuracy)
+  - A3. Final project: 40% (Effort and accuracy)",MSBA7032,Quantitative Trading,4,"MSBA7032
+Quantitative Trading","Elective
+(AI-A)",Prof. Weichang Wang,,,"Presentation: Mar 3, 2025 (Mon)
+Time: 18:30-21:30
+Venue: CP-LT104","A: Monday & Thursday
+18:30-21:30
+Jan 20, 23, 2025
+Feb 3, 6, 10, 13, 17, 20, 24, 27, 2025
+Venue: CP: LT104"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. WANG Dawei
+- **Email:** dwdw@hku.hk
+- **Office:** KK805
+- **Course Description:** This course provides a comprehensive introduction to generative artificial intelligence (AI) and its applications in business contexts, with a focus on ESG considerations. Students will learn about the history and evolution of generative AI, the different types of AI, including rule-based, predictive, and generative AI. The course explores various applications of generative AI in business, the risks and opportunities associated with its use, hardware considerations, costs of training large generative models, and different business models for generative AI. Students will gain hands-on experience with generative AI tools and techniques, focusing on text, image, audio, and video applications. The course also examines the ethical and social implications of using generative AI in business, including responsible AI deployment and governance, privacy, data security, and legal compliance.
+- **Assessments:**
+  - A1. In-class & online participation - 20%
+  - A2. Group discussion - 50%
+  - A3. Final exam - 30%
+  
+  Total: 100%",MSBA7033,Generative AI,3,"MSBA7033
+Generative Artificial
+Intelligence","Elective
+(AI-A)",Prof. Dawei Wang,,,"Presentation: Jan 13, 2025 (Mon)
+Time: 18:30 - 21:30
+Venue: CP-LT104","A: Monday & Thursday
+18:30-21:30
+Nov 28, 2024
+Dec 2, 5, 9, 12, 16, 19, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: LT104
+B: Wednesday &
+Saturday
+14:00-17:00
+Jan 22, 25, 2025
+Feb 5, 8, 12, 15, 19, 22, 26, 2025
+Mar 1, 2025
+Venue: CP: LT104"
+"Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Hailiang Chen
+- **Email:** chen19@hku.hk
+- **Office:** KK 840
+- **Course Description:** This Applied Large Language Models course offers students a comprehensive introduction to the latest advancements in Large Language Models (LLMs), along with hands-on experience using state-of-the-art tools and techniques. Students will develop a deep understanding of LLMs and learn to apply them in real-world contexts, enhancing their professional skills and increasing their desirability in the job market. The course covers LLM theory, practical skills in using Python with the OpenAI API, prompt engineering, chatbot development, and LLM fine-tuning.
+- **Assessments:**
+  - A1. In-class & forum participation: 20%
+  - A2. Assignments: 30%
+  - A3. Group Project: 50%",MSBA7035,Applied Large Language Models,3,"MSBA7035
+Applied Large Language
+Models","Elective
+(AI-A)",Prof. Hailiang Chen,,,"Presentation: Jan 17, 2025 (Fri)
+Time: 9:30-12:30
+Venue: CP-LT104","A: Tuesday & Friday
+9:30-12:30
+Nov 29, 2024
+Dec 3, 6, 10, 13, 17, 2024
+Jan 3, 7, 10, 14, 2025
+Venue: CP: LTB
+(Dec 17 - CP: LT104)"
+"**Instructor:**  
+- Prof. Boris Babic  
+- Prof. Rachel Sterken  
+- Tutor: Dr. David Villena  
+
+**Email:**  
+- babic@hku.hk  
+- sterkenr@hku.hk  
+- dvillena@hku.hk  
+
+**Office:**  
+- Department of Philosophy, the Musketeers Foundation Institute of Data Science, Faculty of Law (for Prof. Boris Babic)  
+- Department of Philosophy, University of Hong Kong (for Prof. Rachel Sterken and Dr. David Villena)  
+
+**Course Description:**  
+This course is designed to explore the ethical implications of AI technologies in real-world applications. Students will study the intersection of AI and ethics for social good, learning philosophical foundations, fairness, bias, civility in communication, misinformation, privacy, and green AI. Through hands-on experience and assignments, students will develop skills in analyzing large sensitive data sets, identifying potential problems, and considering how to design more responsible AI systems. Throughout the course, students will work in groups to develop a business plan to tackle a core social issue, and they will pitch their plan in a “shark tank�?competition, where the winner and runners up will receive prizes.
+
+**Assessments:**  
+- **Participation (10%):** Engagement with course materials and discussions, including class activities and case studies.  
+- **Homework Assignments (30%):** Two assignments, each worth 15%, applying tools developed in the course to ethical business problems.  
+- **Shark Tank Project:**  
+  - **Writeup/Business Plan (40%):** Developed in groups throughout the course.  
+  - **Oral Pitch (20%):** Final competition in Session 10 where students pitch their business plans.  
+- **Late Submissions:** Unexcused late submissions will incur a penalty of 5% per day.",MSBA7036,Ethics in Artificial Intelligence,4,"MSBA7036
+Ethics in Artificial Intelligence","Elective
+(AI-A)","Prof. Rachel Sterken
+&
+Prof. Boris Babic",,"Feb 10 18:00 - 19:00 Classroom D
+Feb 17 18:00 - 19:00 Classroom D
+Feb 24 18:00 - 19:00 Classroom D","Presentation: Mar 3, 2025 (Mon)
+Time: 14:00-17:00
+Venue: CP-LT104","A: Monday & Thursday
+14:00-17:00
+Jan 20, 23, 2025
+Feb 3, 6, 10, 13, 17, 20, 24, 27, 2025
+Venue: CP: LT104"
+"**Instructor:** Prof. Shan Huang  
+**Email:** shanhh@hku.hk  
+**Office:** Rm 1229, K.K. Leung Building  
+
+**Course Description:**  
+The newly emerging capability to rapidly deploy and iterate online controlled experiments to assist decision making in organizations is one of the most significant innovations in today’s technology industry. As more and more social interactions, decisions, opinions, and transactions are mediated by online platforms, digital experiments are becoming increasingly crucial for firms to understand their user behaviors and make product decisions. This course will cover the most cutting-edge digital experimentation methods used in daily operations at large technology firms, such as Tencent, Alibaba, Facebook, and LinkedIn. We will also share the key lessons and pitfalls encountered in practice. Topics include the statistics behind experiments, experimental design, methods of analyzing experiments, networked experiments, quasi-experiments, A/B testing platform and culture in organizations, and recent developments in digital experimentation. Students will also learn how to conduct and analyze online experiments using programming languages, such as Python, in assignments and a course project.
+
+**Assessments:**  
+- A1: In-class & forum participation - 20%  
+- A2: Individual Assignments - 40%  
+- A3: Group Project - 40%  
+Total: 100%  ",MSBA7037,AB Testing in Product Management,5,"MSBA7037
+A/B Testing in Product
+Management
+(Equivalent to MSMK7034)
+*not open to students who have
+taken or are taking MSBA7025
+or MSMK7034",Elective,Prof. Shan Huang,,To be announced,Presentation,"A: Saturday & Sunday
+9:30-18:00
+(incl. 1 hr lunch break)
+Mar 22-23, 2025
+Apr 5-6, 2025
+Venue: HKU Shenzhen
+(Classroom: 501)"

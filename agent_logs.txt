@@ -1,0 +1,336 @@
+2025-01-19 10:42:20,218 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 10:42:20,222 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 10:42:39,434 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 10:42:39,435 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 10:42:58,379 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants/asst_Sb1W9jVTeL1iyzu6N5MilgA1?api-version=2024-05-01-preview "HTTP/1.1 404 Not Found"
+2025-01-19 10:42:59,140 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:42:59,681 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:27,626 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:28,382 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:28,905 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_QwjhLWIgKmvi2IlQZB2IL1eN?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:34,324 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_QwjhLWIgKmvi2IlQZB2IL1eN?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:34,331 - INFO - Calling function: query_selected_courses
+2025-01-19 10:43:34,331 - INFO - Arguments: {}
+2025-01-19 10:43:34,332 - INFO - Function query_selected_courses output: Your selected courses are: Course 7013 Class A, Course 7027 Class A.
+2025-01-19 10:43:34,768 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_QwjhLWIgKmvi2IlQZB2IL1eN/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:35,130 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_QwjhLWIgKmvi2IlQZB2IL1eN?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:40,560 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_QwjhLWIgKmvi2IlQZB2IL1eN?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:43:41,013 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:11,612 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:12,089 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:12,438 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:18,553 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:18,560 - INFO - Calling function: check_courses_mutual_conflict
+2025-01-19 10:44:18,561 - INFO - Arguments: {'course_list': [['7013', 'A'], ['7027', 'A']]}
+2025-01-19 10:44:18,571 - ERROR - Error in check_courses_mutual_conflict: no such column: Module
+Traceback (most recent call last):
+  File "F:\HongKong\Learning\module3\enen\test1.py", line 639, in call_functions
+    output = check_courses_mutual_conflict(cursor, **arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\HongKong\Learning\module3\enen\andrea1.py", line 850, in check_courses_mutual_conflict
+    c_cursor.execute('SELECT Module FROM course_db.course WHERE CourseCode LIKE ?', (f"%{cid}%",))
+sqlite3.OperationalError: no such column: Module
+
+2025-01-19 10:44:19,012 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:19,358 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:25,514 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:25,521 - INFO - Calling function: advanced_course_query
+2025-01-19 10:44:25,522 - INFO - Arguments: {'CourseCode': '7013'}
+2025-01-19 10:44:25,523 - INFO - Function advanced_course_query output: ExtractedInformation: Here is the extracted information from the course outline:
+
+- **Instructor**: Prof. Dan Yang / Prof. Xinghao Qiao
+- **Email**: dyanghku@hku.hk / xinghaoq@hku.hk
+- **Office**: KK Leung 816 / 1340
+- **Course Description**: Students taking this course will be familiar with and have hands-on experience with popular forecasting techniques and approaches used in business, as well as best practices for building forecasting methods and evaluating their performance.
+- **Assessments**:
+  - A1. Participation: 10% (Attendance & discussions)
+  - A2. Assignments: 40% (Effort and accuracy)
+  - A3. Final project: 50% (Effort and accuracy) 
+
+Total assessment weight: 100%
+CourseCode: MSBA7013
+CourseName: Forecasting and Predictive Analytics
+Module : 3
+CourseCode_and_Title: MSBA7013
+Forecasting and Predictive
+Analytics
+CourseType: Elective
+(AI-M)
+Instructor: Prof. Xinghao Qiao
+TutorialGroup: None
+Turorialtime: Dec 5 14:00 - 16:00 Classroom D
+Dec 12 17:00 - 18:00 Classroom D
+Dec 19 17:00 - 18:00 Classroom D
+Jan 6 14:00 - 15:00 Classroom D
+Jan 9 14:00 - 15:00 Classroom D
+Final: Presentation: Jan 18, 2025 (Sat)
+Time: 14:00 - 17:00
+Venue: CP-LTA
+Final exam Date: Oct 10, 2024 (Thurs)
+CombinedClassInformation: A: Monday & Thursday
+9:30-12:30
+Nov 28, 2024
+Sep 2, 5, 9, 12, 16, 19, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: Classroom ABC
+(Dec 19 - CP: Classroom J)
+
+ExtractedInformation: Here is the extracted information from the course outline:
+
+- **Instructor:** Prof. Xinghao Qiao  
+- **Email:** xinghaoq@hku.hk  
+- **Office:** KK Leung 1340  
+- **Course Description:** Students taking this course will be familiar with and have hands-on experience with popular forecasting techniques and approaches used in business, as well as best practices for building forecasting methods and evaluating their performance.  
+- **Assessments:**  
+  - A1. Participation: 20% (Attendance & discussions)  
+  - A2. Assignments: 40% (Effort and accuracy)  
+  - A3. Final project: 40% (Effort and accuracy)  
+  - Total: 100%  
+CourseCode: MSBA7013
+CourseName: Forecasting and Predictive Analytics
+Module : 3
+CourseCode_and_Title: MSBA7013
+Forecasting and Predictive
+Analytics
+CourseType: Elective
+(AI-M)
+Instructor: Prof. Xinghao Qiao
+TutorialGroup: None
+Turorialtime: Dec 5 14:00 - 16:00 Classroom D
+Dec 12 17:00 - 18:00 Classroom D
+Dec 19 17:00 - 18:00 Classroom D
+Jan 6 14:00 - 15:00 Classroom D
+Jan 9 14:00 - 15:00 Classroom D
+Final: Presentation: Jan 18, 2025 (Sat)
+Time: 14:00 - 17:00
+Venue: CP-LTA
+Final exam Date: Oct 10, 2024 (Thurs)
+CombinedClassInformation: A: Monday & Thursday
+9:30-12:30
+Nov 28, 2024
+Sep 2, 5, 9, 12, 16, 19, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: Classroom ABC
+(Dec 19 - CP: Classroom J)
+2025-01-19 10:44:25,532 - INFO - Calling function: advanced_course_query
+2025-01-19 10:44:25,532 - INFO - Arguments: {'CourseCode': '7027'}
+2025-01-19 10:44:25,533 - INFO - Function advanced_course_query output: ExtractedInformation: Here is the extracted information from the course outline:
+
+- **Instructor:** Zhengli Wang  
+- **Email:** wzl1@hku.hk  
+- **Office:** KK908  
+- **Course Description:** This course provides systematic training of machine learning, which is the foundation and core of data analytics. It covers various topics such as machine learning system design, nonlinear regressions, advanced tree-based methods, recommendation systems, and anomaly detection.  
+- **Assessments:**  
+  - A1. Participation: 20% (Attendance & discussions)  
+  - A2. Assignments: 40% (Effort and accuracy)  
+  - A3. Final project: 40% (Effort and accuracy)  
+  - Total: 100%  
+CourseCode: MSBA7027
+CourseName: Machine Learning
+Module : 3
+CourseCode_and_Title: MSBA7027
+Machine Learning
+CourseType: Elective
+(AI-M)
+(MC-AM)
+Instructor: Prof. Zhengli Wang
+TutorialGroup: None
+Turorialtime: Dec 10 14:00 - 16:00 LTB
+Dec 11 18:30 - 20:30 LTA
+Jan 7 14:00 - 16:00 LTB
+Jan 8 18:30 - 20:30 Class D
+Final: Final exam Date: Jan 17, 2025 (Fri)
+Time: 18:30 - 21:00
+Venues at CP: LT104, Classroom ABC, Classroom EFG,
+Classroom D
+CombinedClassInformation: A: Monday & Thursday
+9:30-12:30
+Nov 28, 2024
+Dec 2, 5, 9, 12, 16, 21, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: LT104
+(Dec 21 - CP: Classroom ABC 14:00-17:00 )
+B: Monday & Thursday
+14:00-17:00
+Nov 28, 2024
+Dec 2, 5, 9, 12, 16, 19, 2024
+Jan 2, 6, 9, 2025
+Venue: CP: LT104
+(Dec 19 - CP: Classroom H)
+C: Wednesday &
+Saturday
+9:30-12:30
+Nov 27, 30, 2024
+Dec 4, 7, 11, 14, 18, 2024
+Jan 4, 8, 11, 2025
+Venue: CP: LT104
+(Dec 14 - CP: Classroom FG)
+2025-01-19 10:44:26,088 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:26,538 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:32,181 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/runs/run_YNgcXLSk9UwJlv7ly7wsFuXk?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:44:32,542 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_6nQyweW8nu7broLJq2HlmXRk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:47:21,514 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 10:47:21,514 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 10:47:54,337 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 10:47:54,339 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 10:48:09,155 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants/asst_Sb1W9jVTeL1iyzu6N5MilgA1?api-version=2024-05-01-preview "HTTP/1.1 404 Not Found"
+2025-01-19 10:48:10,244 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:11,053 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:23,630 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:24,096 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:24,465 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_zJITu4DqgaeIp5TLYnnztYxE?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:29,803 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_zJITu4DqgaeIp5TLYnnztYxE?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:29,814 - INFO - Calling function: query_selected_courses
+2025-01-19 10:48:29,815 - INFO - Arguments: {}
+2025-01-19 10:48:29,816 - INFO - Function query_selected_courses output: Your selected courses are: Course 7013 Class A, Course 7027 Class A.
+2025-01-19 10:48:30,309 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_zJITu4DqgaeIp5TLYnnztYxE/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:30,822 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_zJITu4DqgaeIp5TLYnnztYxE?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:36,284 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_zJITu4DqgaeIp5TLYnnztYxE?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:36,635 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:50,063 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:50,663 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:51,031 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_gjpMnUM9S71dgaXOBjEJ5aw9?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:57,359 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_gjpMnUM9S71dgaXOBjEJ5aw9?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:57,365 - INFO - Calling function: check_courses_mutual_conflict
+2025-01-19 10:48:57,365 - INFO - Arguments: {'course_list': [['7013', 'A'], ['7027', 'A']]}
+2025-01-19 10:48:57,381 - INFO - Function check_courses_mutual_conflict output: (True, 'Courses 7013 Class A and 7027 Class A have time conflict.')
+2025-01-19 10:48:58,081 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_gjpMnUM9S71dgaXOBjEJ5aw9/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:48:58,718 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_gjpMnUM9S71dgaXOBjEJ5aw9?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:49:04,117 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_gjpMnUM9S71dgaXOBjEJ5aw9?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:49:04,702 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:50:44,195 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:50:44,665 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:50:45,045 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_0XRsPWuTt4LTNDhXbHBhOEef?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:50:51,633 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_0XRsPWuTt4LTNDhXbHBhOEef?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 10:50:52,134 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:31,553 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:32,367 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:32,745 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_xs9REtoWy9zqp6M6ZolJ8Zti?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:38,195 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_xs9REtoWy9zqp6M6ZolJ8Zti?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:38,203 - INFO - Calling function: modify_stream
+2025-01-19 11:01:38,204 - INFO - Arguments: {'new_stream': 'AI'}
+2025-01-19 11:01:38,227 - INFO - Function modify_stream output: Your stream has been updated to 'AI'.
+2025-01-19 11:01:38,826 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_xs9REtoWy9zqp6M6ZolJ8Zti/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:39,200 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_xs9REtoWy9zqp6M6ZolJ8Zti?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:44,683 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/runs/run_xs9REtoWy9zqp6M6ZolJ8Zti?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:01:45,067 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_F7vIGljdoKB5YbZ30NBZBgfP/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:13:12,589 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 11:13:12,590 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 11:13:25,105 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 11:13:25,106 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 11:13:39,884 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants/asst_Sb1W9jVTeL1iyzu6N5MilgA1?api-version=2024-05-01-preview "HTTP/1.1 404 Not Found"
+2025-01-19 11:13:40,872 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:13:41,456 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:10,887 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:11,355 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:11,712 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_v7sTHQ4zTp3VJfQ5bLZBt3WF?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:17,066 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_v7sTHQ4zTp3VJfQ5bLZBt3WF?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:17,082 - INFO - Calling function: recommend_courses_based_on_scenario
+2025-01-19 11:14:17,083 - INFO - Arguments: {'scenario': 'career_path', 'subtype': 'data_analyst'}
+2025-01-19 11:14:17,085 - INFO - Function recommend_courses_based_on_scenario output: {'algorithm_engineer_machine_learning_engineer': {'description': 'For Algorithm Engineers or Machine Learning Engineers:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7035', 'MSBA 7021'], 'module4': ['MSBA 7028'], 'module5': ['MSBA 7026', 'MSBA 7037']}}, 'data_scientist_internet': {'description': 'For Data Scientists in the Internet Industry:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7013', 'MSBA 7024'], 'module4': ['MSBA 7025', 'MSBA 7028'], 'module5': ['MSBA 7013', 'MSBA 7029', 'MSBA 7037']}}, 'data_scientist_supply_chain': {'description': 'For Data Scientists in the Supply Chain Industry:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7021', 'MSBA 7013'], 'module4': ['MSBA 7025', 'MSBA 7016'], 'module5': ['MSBA 7029', 'MSBA 7037']}}, 'data_analyst_business_analyst': {'description': 'For Data Analysts or business analyst:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7024', 'MSBA 7013'], 'module4': ['MSBA 7025', 'MSBA 7012'], 'module5': ['MSBA 7013', 'MSBA 7029', 'MSBA 7037']}}}
+2025-01-19 11:14:17,705 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_v7sTHQ4zTp3VJfQ5bLZBt3WF/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:18,410 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_v7sTHQ4zTp3VJfQ5bLZBt3WF?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:24,521 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_v7sTHQ4zTp3VJfQ5bLZBt3WF?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:14:24,953 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:09,698 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:10,177 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:10,581 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_sH99wY7cR7sZkJpznrE6RmD3?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:16,725 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_sH99wY7cR7sZkJpznrE6RmD3?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:16,730 - INFO - Calling function: recommend_courses_based_on_scenario
+2025-01-19 11:36:16,730 - INFO - Arguments: {'scenario': 'career_path', 'subtype': 'algorithm_engineer_machine_learning_engineer'}
+2025-01-19 11:36:16,732 - INFO - Function recommend_courses_based_on_scenario output: {'algorithm_engineer_machine_learning_engineer': {'description': 'For Algorithm Engineers or Machine Learning Engineers:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7035', 'MSBA 7021'], 'module4': ['MSBA 7028'], 'module5': ['MSBA 7026', 'MSBA 7037']}}, 'data_scientist_internet': {'description': 'For Data Scientists in the Internet Industry:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7013', 'MSBA 7024'], 'module4': ['MSBA 7025', 'MSBA 7028'], 'module5': ['MSBA 7013', 'MSBA 7029', 'MSBA 7037']}}, 'data_scientist_supply_chain': {'description': 'For Data Scientists in the Supply Chain Industry:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7021', 'MSBA 7013'], 'module4': ['MSBA 7025', 'MSBA 7016'], 'module5': ['MSBA 7029', 'MSBA 7037']}}, 'data_analyst_business_analyst': {'description': 'For Data Analysts or business analyst:', 'modules': {'module3': ['MSBA 7027', 'MSBA 7024', 'MSBA 7013'], 'module4': ['MSBA 7025', 'MSBA 7012'], 'module5': ['MSBA 7013', 'MSBA 7029', 'MSBA 7037']}}}
+2025-01-19 11:36:17,250 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_sH99wY7cR7sZkJpznrE6RmD3/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:17,671 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_sH99wY7cR7sZkJpznrE6RmD3?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:23,107 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/runs/run_sH99wY7cR7sZkJpznrE6RmD3?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 11:36:23,510 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_oohSfjHZl7SZCzmc0lgQBthk/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 14:51:04,732 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 14:51:04,732 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 14:51:27,404 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 14:51:27,406 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 15:25:43,758 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants/asst_Sb1W9jVTeL1iyzu6N5MilgA1?api-version=2024-05-01-preview "HTTP/1.1 404 Not Found"
+2025-01-19 15:25:44,328 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 15:25:45,222 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:35:57,831 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/assistants/asst_Sb1W9jVTeL1iyzu6N5MilgA1?api-version=2024-05-01-preview "HTTP/1.1 404 Not Found"
+2025-01-19 21:35:58,265 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/assistants?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:35:58,757 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:16,952 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:17,355 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:17,670 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_7z6av6BcmSrasLVZpisdEEku?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:23,661 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_7z6av6BcmSrasLVZpisdEEku?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:23,674 - INFO - Calling function: query_selected_courses
+2025-01-19 21:36:23,675 - INFO - Arguments: {}
+2025-01-19 21:36:23,675 - INFO - Function query_selected_courses output: You have not selected any courses yet.
+2025-01-19 21:36:24,056 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_7z6av6BcmSrasLVZpisdEEku/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:24,328 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_7z6av6BcmSrasLVZpisdEEku?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:29,644 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_7z6av6BcmSrasLVZpisdEEku?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:36:29,950 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:11,795 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:12,225 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:12,475 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_p40BJYZ8c6LH0sYRtt1Lminw?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:18,390 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_p40BJYZ8c6LH0sYRtt1Lminw?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:18,682 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:23,774 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:24,208 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:24,522 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_qzcsrO4Ad67iFHhg98e0m0se?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:29,799 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_qzcsrO4Ad67iFHhg98e0m0se?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:29,805 - INFO - Calling function: select_course
+2025-01-19 21:37:29,806 - INFO - Arguments: {'course_id': '7001', 'class_letter': 'A'}
+2025-01-19 21:37:29,813 - INFO - Function select_course output: You have successfully selected class A of course 7001.
+2025-01-19 21:37:30,330 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_qzcsrO4Ad67iFHhg98e0m0se/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:30,591 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_qzcsrO4Ad67iFHhg98e0m0se?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:36,480 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_qzcsrO4Ad67iFHhg98e0m0se?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:36,884 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:58,446 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:58,890 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:37:59,229 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_hOkNkdvxqFDxcriCh3q5vwuC?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:04,494 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_hOkNkdvxqFDxcriCh3q5vwuC?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:04,496 - INFO - Calling function: select_course
+2025-01-19 21:38:04,496 - INFO - Arguments: {'course_id': '7002', 'class_letter': 'B'}
+2025-01-19 21:38:04,502 - INFO - Function select_course output: You have successfully selected class B of course 7002.
+2025-01-19 21:38:04,873 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_hOkNkdvxqFDxcriCh3q5vwuC/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:05,144 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_hOkNkdvxqFDxcriCh3q5vwuC?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:11,092 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/runs/run_hOkNkdvxqFDxcriCh3q5vwuC?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:11,400 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ApvrUtGAMIfySUL3GL11EOFO/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:33,893 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/assistants/asst_Sb1W9jVTeL1iyzu6N5MilgA1?api-version=2024-05-01-preview "HTTP/1.1 404 Not Found"
+2025-01-19 21:38:34,440 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/assistants?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:35,004 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:40,562 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:40,974 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:41,285 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/runs/run_t4XPOUpvr7ghbTS3shr3qxxi?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:47,235 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/runs/run_t4XPOUpvr7ghbTS3shr3qxxi?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:47,241 - INFO - Calling function: query_selected_courses
+2025-01-19 21:38:47,242 - INFO - Arguments: {}
+2025-01-19 21:38:47,244 - INFO - Function query_selected_courses output: Your selected courses are: Course 7001 Class A, Course 7002 Class B.
+2025-01-19 21:38:47,604 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/runs/run_t4XPOUpvr7ghbTS3shr3qxxi/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:47,865 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/runs/run_t4XPOUpvr7ghbTS3shr3qxxi?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:53,138 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/runs/run_t4XPOUpvr7ghbTS3shr3qxxi?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 21:38:53,436 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com/openai/threads/thread_ZP9gTQwDjmiM3JCYqNto6tOb/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:05:32,759 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 23:05:32,760 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 23:05:55,209 - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-01-19 23:05:55,209 - INFO - NumExpr defaulting to 8 threads.
+2025-01-19 23:06:13,313 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants/asst_Sb1W9jVTeL1iyzu6N5MilgA1?api-version=2024-05-01-preview "HTTP/1.1 404 Not Found"
+2025-01-19 23:06:13,980 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/assistants?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:14,490 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:31,112 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:31,795 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:32,112 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_jyPIGUb2GAH7iDCF2hQAvPwm?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:38,168 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_jyPIGUb2GAH7iDCF2hQAvPwm?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:38,175 - INFO - Calling function: query_selected_courses
+2025-01-19 23:06:38,175 - INFO - Arguments: {}
+2025-01-19 23:06:38,182 - INFO - Function query_selected_courses output: You have not selected any courses yet.
+2025-01-19 23:06:38,632 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_jyPIGUb2GAH7iDCF2hQAvPwm/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:38,895 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_jyPIGUb2GAH7iDCF2hQAvPwm?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:44,167 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_jyPIGUb2GAH7iDCF2hQAvPwm?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:44,487 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:56,716 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:57,133 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:06:57,443 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_CdDky5jhofmqlLydazyszH8u?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:07:02,775 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_CdDky5jhofmqlLydazyszH8u?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:07:02,778 - INFO - Calling function: select_course
+2025-01-19 23:07:02,779 - INFO - Arguments: {'course_id': '7001', 'class_letter': 'A'}
+2025-01-19 23:07:02,789 - INFO - Function select_course output: You have successfully selected class A of course 7001.
+2025-01-19 23:07:03,172 - INFO - HTTP Request: POST https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_CdDky5jhofmqlLydazyszH8u/submit_tool_outputs?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:07:03,485 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_CdDky5jhofmqlLydazyszH8u?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:07:08,817 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/runs/run_CdDky5jhofmqlLydazyszH8u?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
+2025-01-19 23:07:09,142 - INFO - HTTP Request: GET https://azure-openai-hkubs-eaus2.openai.azure.com//openai/threads/thread_ZNWFQ9JtDK32r3DthcfqID1X/messages?api-version=2024-05-01-preview "HTTP/1.1 200 OK"
